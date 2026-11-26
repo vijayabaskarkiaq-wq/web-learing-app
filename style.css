@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+.navbar {
+    background-color: #172554 !important;
+    padding: 15px;
+}
+.navbar-collapse {
+    visibility: visible;
+}
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white !important;
+}
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+.nav-link:hover {
+    color: #38bdf8 !important;
+}
+#home {
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 60px 20px !important;
+}
+#home h1 {
+    color: #1e3a8a;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#home p {
+    font-size: 18px;
+    color: #475569;
+    margin-bottom: 25px;
+}
+#courses {
+    margin-top: 30px;
+}
+#courses h2 {
+    color: #1e3a8a;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.card {
+    border: none !important;
+    border-radius: 12px !important;
+    background-color: white;
+    transition: 0.3s;
+    height: 100%;
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+.card h3 {
+    color: #2563eb;
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+.card p {
+    color: #64748b;
+    font-size: 15px;
+}
+.btn {
+    border-radius: 8px !important;
+    padding: 10px 20px !important;
+    font-weight: bold !important;
+    transition: 0.3s;
+}
+.btn:hover {
+    transform: scale(1.04);
+}
+#javascript {
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+#javascript h2 {
+    color: #1e40af;
+    margin-bottom: 20px;
+}
+#api {
+    background-color: #eff6ff;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+#api h2 {
+    color: #1e40af;
+    margin-bottom: 20px;
+}
+#userList p {
+    background-color: white;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border-left: 4px solid #2563eb;
+}
+input {
+    border-radius: 8px !important;
+    padding: 12px !important;
+}
+footer {
+    background-color: #172554 !important;
+    margin-top: 30px;
+    padding: 20px !important;
+}
+h2 {
+    font-weight: bold;
+}
+html {
+    scroll-behavior: smooth;
+}
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 26px;
+    }
+    #home p {
+        font-size: 16px;
+    }
+    .navbar-brand {
+        font-size: 20px;
+    }
+    .card {
+        margin-bottom: 15px;
+    }
+}
